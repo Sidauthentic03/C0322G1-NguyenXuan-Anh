@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--<script language="javascript">
+    let sout, i, j;
+    sout = "<table border='1' width='300' cellspacing='0' cellpadding='3'>";
+    i = j = 1;
+    while (i <= 10) {
+        sout = sout + "<tr>";
+        while (j <= 10) {
+            sout = sout + "<td>" + i * j + "</td>";
+            j++;
+        }
+        sout = sout + "</tr>";
+        j = 1;
+        i++;
+    }
+    sout = sout + "</table>";
+    document.write(sout);
+</script>-->
+<!--<script>
+    let x, i ,j ;
+    x = "<table border='1' width='300' cellspacing='0' cellpadding='3'>";
+    i = 2 ;j = 1;
+    while (i <=9){
+        x = x + "<td>" +i * j + "</td>";
+        j++;
+    }
+    document.write(x);
+</script>-->
+<!--<script>
+    let x = "<table border='1' width='300' cellpadding='1' cellspacing='3'></table>"
+    for (i = 2;i <=9;i ++){
+        x = x +"<tr>";
+        for (j = 1;j<=10;j ++){
+            x = x +"<td>" + i * j +"</td>";
+
+        }
+        x = x + "</tr>";
+
+    }
+    x = x + "</table>";
+    document.write(x);
+</script>-->
+<script>
+    let sout;
+    sout = "<table border='1' width='300' cellspacing='0' cellpadding='3'>"
+    for (i = 2; i <= 9; i++) {
+        sout = sout + "<tr>";
+        for (j = 1; j <= 9; j++) {
+            sout = sout + "<td>" + j + "x" + i + "=" + i * j + "</td>";
+        }
+        sout = sout + "</tr>";
+    }
+    sout = sout + "</table>";
+    document.write( sout );
+</script>
+</body>
+</html>
