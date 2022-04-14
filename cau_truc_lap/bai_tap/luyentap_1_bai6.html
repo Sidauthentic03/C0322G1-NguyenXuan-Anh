@@ -5,6 +5,19 @@
     <title>Title</title>
 </head>
 <body>
+<script>
 
+    let a = 7;
+    let total = 7;
+    let count = 1;
+    while (count < 30 ) {
+        if(a % 7 === 0) {
+            count = count +  1;
+            total = total + a;
+        }
+        a = a + 7;
+    }
+    document.write('total = ' + total);
+</script>
 </body>
 </html>

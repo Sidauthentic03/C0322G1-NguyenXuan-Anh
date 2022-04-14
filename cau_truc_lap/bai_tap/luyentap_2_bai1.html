@@ -2,9 +2,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
 </head>
 <body>
-$END$
+<script>
+    const x = parseFloat(prompt("Enter times number :"));
+    let a = 0 ;
+    let b = 1 ;
+    let total ;
+    document.write("Fibonacci Sequence : " + x + '<br>');
+    for (let i = 1;i<=x;i++){
+        document.write(a + "<br>");
+        total = a + b;
+        a = b;
+        b = total;
+
+    }
+</script>
 </body>
 </html>

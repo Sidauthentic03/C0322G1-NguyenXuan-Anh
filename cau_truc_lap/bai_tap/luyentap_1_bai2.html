@@ -2,9 +2,25 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
 </head>
 <body>
-$END$
+<script>
+    let temperature;
+    do {
+        temperature = parseInt(prompt('Nhập nhiệt độ: '));
+        if (temperature > 100) {
+            alert('Hãy giảm nhiệt độ xuống: ');
+        } else if (temperature < 20) {
+            alert('Hãy tăng nhiệt độ lên: ');
+        } else {
+            document.write('Nhiệt độ hiện tại là: ' + temperature);
+            break;
+        }
+    }
+    while (true);
+</script>
+
+
 </body>
 </html>
